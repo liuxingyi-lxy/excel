@@ -1,0 +1,6 @@
+{
+  "name": "excel-template-exporter",
+  "appId": "cli_a0000000000000000000000000000000000",
+  "version": "0.0.1",
+  "description": "上传 Excel 模板，按占位符匹配多维表格数据并导出填好的 Excel"
+}

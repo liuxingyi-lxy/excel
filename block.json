@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "type": "bitable-extension",
+  "blockTypeID": "blk_a0000000000000000000000000000000000000",
+  "name": "模板导出插件",
+  "description": "支持上传含 {{占位符}} 或 ='[5]LINK DATA'!D2 形式外部引用的 Excel 模板，按 JSON 映射把多维表格记录里的字段值填进模板并导出新 xlsx。可单条导出当前记录或批量导出整张表。",
+  "url": "https://bondexgroup.feishu.cn/wiki/Yhs3wK1aOixkkgk6kETcfnrmnjf",
+  "i18n": {
+    "zh_cn": {
+      "name": "模板导出插件",
+      "description": "上传 Excel 模板，按占位符把多维表格记录导出为新 Excel"
+    }
+  }
+}

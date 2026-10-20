@@ -1,0 +1,24 @@
+{
+  "name": "excel-template-exporter",
+  "version": "0.0.1",
+  "description": "飞书多维表格自动化插件：上传 Excel 模板，按占位符匹配多维表格数据并导出填好的 Excel",
+  "private": true,
+  "main": "dist/register.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node dist/test/index.js",
+    "verify": "npm run build && node dist/verify/render-real.js",
+    "upload": "npm run build && opdev upload",
+    "preview": "npm run build && opdev preview"
+  },
+  "dependencies": {
+    "@lark-opdev/block-basekit-server-api": "^0.0.7",
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.4"
+  }
+}
